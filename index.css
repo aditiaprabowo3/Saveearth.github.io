@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li {
+    padding: 0 15px;
+}
+.navbar .bt {
+    margin-top: 15px;
+}
+ul li a {
+    font-weight: 500;
+    color: #000 !important;
+}
+.card-comunity {
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.card-comunity:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.125);
+}
+footer ul li {
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 16px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+    .section-banner .text-content h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 10px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: center;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .text-content h2 {
+        font-size: 25px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .section-about .text-content  p {
+        font-size: 11px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt {
+        margin-top: 15px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) { 
+    .section-banner .text-content h1 {
+        font-size: 37px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 12px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: center;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .text-content h2 {
+        font-size: 30px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .section-about .text-content  p {
+        font-size: 13px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt {
+        margin-top: 15px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 16px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: center;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt {
+        margin-top: 15px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 16px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: center;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .section-about .text-content p {
+        font-size: 16px;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt {
+        margin-top: 15px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 16px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: left;
+    }
+    .section-banner .img-content img {
+        width: 135%;
+        height: 135%;
+        margin-top: -20px;
+        margin-left: -100px;
+    }
+    .section-about .img-content img {
+        width: 110%;
+        height: 110%;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .section-about .text-content p {
+        font-size: 16px;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .navbar .bt {
+        margin-top: 0px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content p {
+        font-size: 16px;
+    }
+    .section-banner .text-content {
+        margin-top:90px;
+        text-align: left;
+    }
+    .section-banner .img-content img {
+        width: 130%;
+        height: 130%;
+        margin-top: -40px;
+        margin-left: -150px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .section-about .text-content p {
+        font-size: 16px;
+    }
+    .section-sponsor img {
+        width: 15%;
+        height: 15%;
+        margin: 0px;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .navbar .bt {
+        margin-top: 0px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
