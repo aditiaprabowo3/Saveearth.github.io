@@ -22,8 +22,11 @@ ul li a {
 }
 footer ul li {
     list-style: none;
-    margin-left: -45px;
+    margin-left: -29px;
     padding-bottom: 16px;
+}
+.card-content {
+    margin: 22px 0;
 }
 footer ul li a{
     text-decoration: none;
